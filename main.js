@@ -11,9 +11,9 @@ function hi() {
 }
 $(function (){
   // ????
-  ques = ['3+4*8', 'line 3, 1~9 letter', ' ', 'WVVkcmFBPT0=', 'F12', '345216', 'ans7', 'ans8', 'ans9', 'ans10',];
-  hintL = ['사칙연산 (답: 2글자)', '3번째 줄 1~9번쨰 글자 (답: 3글자)', '클립보드 (답: 7글자)', 'Base64 복호화 (답: 3글자)', 'F12 -> Console (답: 3글자)', '레벨 선택 (답: ?글자)', 'ans7', 'ans8', 'ans9', 'ans10'];
-  ans = ['35', '602', 'Answer?', 'hi!', 'wow', '', 'ans7', 'ans8', 'ans9', 'ans10'];
+  ques = ['3+4*8', 'line 3, 1~9 letter', ' ', 'WVVkcmFBPT0=', 'F12', '345216', '<div>1<span class="drag">001</span>001<span class="drag">101</span>0</div><div><span class="drag">0</span>101<span class="drag">1</span>0<span class="drag">1</span>001<span class="drag">0</span></div><div>100<span class="drag">0</span>111<span class="drag">001</span>0</div><div><span class="drag">1</span>100<span class="drag">1</span>1<span class="drag">0</span>100<span class="drag">1</span></div><div>0<span class="drag">001</span>001<span class="drag">011</span>0</div>', 'ans8', 'ans9', 'ans10',];
+  hintL = ['사칙연산 (답: 2글자)', '3번째 줄 1~9번쨰 글자 (답: 3글자)', '클립보드 (답: 7글자)', 'Base64 복호화 (답: 3글자)', 'F12 -> Console (답: 3글자)', '레벨 선택 (답: ?글자)', '글자 드래그 하기! (답:2글자)', 'ans8', 'ans9', 'ans10'];
+  ans = ['35', '602', 'Answer?', 'hi!', 'wow', '', '38', 'ans8', 'ans9', 'ans10'];
   levelNow = 0;
   levelUnlocked = 0;
   hint = 0;

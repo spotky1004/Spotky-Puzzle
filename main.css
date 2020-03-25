@@ -54,6 +54,9 @@ nav > div:not(:nth-child(10)) {
   font-size: 2em;
   text-align: center;
 }
+.drag::selection {
+  background-color: #67e0b4;
+}
 .ansButton {
   padding: 10px;
   margin-top: 15px;
